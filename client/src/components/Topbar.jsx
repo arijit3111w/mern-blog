@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "@/assets/images/Mernblog.png";
+import logo from "@/assets/images/MernBlog.png";
 import { Button } from "./ui/button";
 import { Link, useNavigate } from "react-router-dom";
 import { VscSignIn } from "react-icons/vsc";
