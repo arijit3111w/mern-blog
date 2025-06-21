@@ -11,7 +11,7 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { Link } from "react-router-dom";
-import logo from "@/assets/images/Mernblog.png"; // Adjust the path as necessary
+import logo from "@/assets/images/MernBlog.png"; // Adjust the path as necessary
 
 import { FaHome } from "react-icons/fa";
 import { BiSolidCategory } from "react-icons/bi";
