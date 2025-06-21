@@ -21,7 +21,7 @@ import {
 } from "./helpers/RouteName"; // done for dynamic routing
 import Index from "./pages/Index";
 import SignUp from "./pages/SignUp";
-import SignIn from "./pages/Signin";
+import SignIn from "./pages/SignIn";
 import Profile from "./pages/Profile";
 import AddCategory from "./pages/category/AddCategory";
 import EditCategory from "./pages/category/EditCategory";
