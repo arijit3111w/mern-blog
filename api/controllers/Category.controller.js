@@ -17,8 +17,13 @@ export const addCategory = async (req, res,next) => {
             message: "Category added successfully",
         });
     } catch (error) {
-        next(handleError(500, error.message));
+       if (error.code === 11000) {
+      // Duplicate slug error
+      return next(handleError(400, `Category with slug '${req.body.slug}' already exists.`));
     }
+
+    return next(handleError(500, error.message));
+  }
 }
 
 export const showCategory = async (req, res,next) => {
