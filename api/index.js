@@ -36,7 +36,7 @@ app.use('/api/blog-like',BlogLikeRoute)
 
 
 // connect to database 
-mongoose.connect(process.env.MONGODB_URL2, {
+mongoose.connect(process.env.MONGODB_URL, {
     dbName: 'blog-site',
 }
 ).then(() => console.log('Connected to MongoDB'))
